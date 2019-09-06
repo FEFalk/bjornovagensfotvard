@@ -16,13 +16,13 @@ function athemes_toolbox_register_services() {
 	$slug = apply_filters( 'athemes_services_rewrite_slug', 'services' );		
 
 	$labels = array(
-		'name'                  => _x( 'Services', 'Post Type General Name', 'athemes_toolbox' ),
-		'singular_name'         => _x( 'Service', 'Post Type Singular Name', 'athemes_toolbox' ),
-		'menu_name'             => __( 'Services', 'athemes_toolbox' ),
-		'name_admin_bar'        => __( 'Services', 'athemes_toolbox' ),
+		'name'                  => _x( 'Behandlingar', 'Post Type General Name', 'athemes_toolbox' ),
+		'singular_name'         => _x( 'Behandling', 'Post Type Singular Name', 'athemes_toolbox' ),
+		'menu_name'             => __( 'Behandlingar', 'athemes_toolbox' ),
+		'name_admin_bar'        => __( 'Behandlingar', 'athemes_toolbox' ),
 		'archives'              => __( 'Item Archives', 'athemes_toolbox' ),
 		'parent_item_colon'     => __( 'Parent Item:', 'athemes_toolbox' ),
-		'all_items'             => __( 'All Services', 'athemes_toolbox' ),
+		'all_items'             => __( 'Alla Behandlingar', 'athemes_toolbox' ),
 		'add_new_item'          => __( 'Add New Service', 'athemes_toolbox' ),
 		'add_new'               => __( 'Add New Service', 'athemes_toolbox' ),
 		'new_item'              => __( 'New Service', 'athemes_toolbox' ),
@@ -43,7 +43,7 @@ function athemes_toolbox_register_services() {
 		'filter_items_list'     => __( 'Filter items list', 'athemes_toolbox' ),
 	);
 	$args = array(
-		'label'                 => __( 'Service', 'athemes_toolbox' ),
+		'label'                 => __( 'Behandling', 'athemes_toolbox' ),
 		'description'           => __( 'A post type for your services', 'athemes_toolbox' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail' ),
